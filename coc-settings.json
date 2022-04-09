@@ -1,0 +1,15 @@
+{
+  "languageserver": {
+    "astro": {
+      "module": "~/.npm-global/bin/astro-ls",
+      "args": ["--node-ipc"],
+      "filetypes": ["astro"],
+      "trace.server": "verbose",
+      "initializationOptions": {
+        "configuration": {
+          "astro": {}
+        }
+      }
+    }
+  }
+}
